@@ -13,6 +13,13 @@ def functie(v1, v2):</br>
    ....</br>
  return v1,v2</br>
 
+### Fisiere </br>
+Acestea trebuie sa aiba un nume din care este usor de dedus continutul. De exemplu: </br>
+Metrici.py -> Implementare functii de calcul de metrici. </br>
+(folder) zoo -> Contine multiple modele. </br>
+(folder) TrainResults -> Contine rezultate la antrenare - depinde de organizare </br>
+(folder) data -> Contine date. </br>
+
 
 
 ## Reading
@@ -21,4 +28,5 @@ Metoda Vizata - link articol.
 
 Exemplu: </br>
 Deep Residual Learning for Image Recognition (ResNet) - https://arxiv.org/abs/1512.03385v1
+
 
