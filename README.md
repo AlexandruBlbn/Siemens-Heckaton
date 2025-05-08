@@ -1,6 +1,6 @@
 # Siemens-Heckaton
 8-10 mai 2025.</br> Tematica: Embeded si AI.</br>
-Idee propusa: -
+Idee propusa: Brat robotic cu post fix ce manipuleaza medicamente.
 
 ## Organizare:
 Se creaza branch-uri separate pentru fiecare membru si se da comit strict in branch-ul lui. </br>
@@ -16,9 +16,7 @@ def functie(v1, v2):</br>
 ### Fisiere </br>
 Acestea trebuie sa aiba un nume din care este usor de dedus continutul. De exemplu: </br>
 Metrici.py -> Implementare functii de calcul de metrici. </br>
-(folder) zoo -> Contine multiple modele. </br>
-(folder) TrainResults -> Contine rezultate la antrenare - depinde de organizare </br>
-(folder) data -> Contine date. </br>
+Fisierele din dev au scopul de a putea lucra fara a afecta main-ul.
 
 
 
