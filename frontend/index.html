@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Control Vocal Braț Robot</title>
+  <!-- meta şi titlu -->
   <script src="https://cdn.tailwindcss.com"></script>
+  
 </head>
-<body class="bg-gray-100 h-screen flex items-center justify-center">
-  <div class="bg-white shadow-lg rounded-2xl p-8 max-w-md w-full">
-    <h1 class="text-2xl font-bold text-center mb-6 text-gray-800">Control Vocal Braț Robotic</h1>
-    <button id="start-btn" class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold shadow-md transition">
-      Pornește Recunoașterea
-    </button>
-    <div class="mt-6 p-4 bg-gray-50 rounded-lg space-y-2">
-      <p id="recognized" class="text-gray-700">Medicament recunoscut:  </p>
-      <p id="status" class="text-gray-500">Status: idle</p>
-    </div>
+<body class="…">
+  <div class="card">
+    <h1>Control Vocal Braț Robotic</h1>
+    <!-- 1. Butonul declanșează recunoașterea vocală -->
+    <button id="start-btn">Pornește Recunoașterea</button>
+    <!-- 2. Zona unde afișăm ce s-a recunoscut -->
+    <p id="recognized">Medicament recunoscut: —</p>
+    <!-- 3. Zona de status (ascultă, trimite server, rezultat…) -->
+    <p id="status">Status: idle</p>
   </div>
+
+  <!-- Încarcă logica JS de recunoaștere vocală și fetch -->
+   <!-- Socket.IO client -->
+  <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
